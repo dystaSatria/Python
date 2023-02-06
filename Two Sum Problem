@@ -1,21 +1,18 @@
-"""
-Example :
-Input: nums = [1,4,10,-3], target = 14
-Output: [1,2] or [2,1] # 4 + 10 = 14
-Input: nums = [9,5,1,23], target = 10
-Output: [0,2] or [2,0] # 9 + 1 = 10
-Input: nums = [1,-2,5,10], target = -1
-Output: [0,1] or [1,0] # 1 + -2 = -1
-"""
-
-
-def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i,j]
-                    
-                    
-                    
-                    
+ #The Second Example Code
  
+def twoSumHashing(num_arr, pair_sum):
+    sums = []
+    hashTable = {}
+
+    for i in range(len(num_arr)):
+        complement = pair_sum - num_arr[i]
+        if complement in hashTable:
+            print("Pair with sum", pair_sum,"is: (", num_arr[i],",",complement,")")
+        hashTable[num_arr[i]] = num_arr[i]
+
+# Driver Code
+num_arr = [1,4,10,-3]
+pair_sum = 14
+  
+# Calling function
+twoSumHashing(num_arr, pair_sum)
