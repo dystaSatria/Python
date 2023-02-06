@@ -1,5 +1,5 @@
  #The Second Example Code
- 
+ # Just control the two Sum is not solve the position
 def twoSumHashing(num_arr, pair_sum):
     sums = []
     hashTable = {}
