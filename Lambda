@@ -35,3 +35,14 @@ def myfunc(n):
 mydoubler = myfunc(2)
 print(mydoubler(11))
 #Output 22
+
+
+#5
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(4)
+
+print(mydoubler(12))
+#Output 48
+
