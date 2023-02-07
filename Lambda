@@ -17,3 +17,12 @@ print(exam(12))
 
 #Output 32
 
+exam = lambda a, b : a * b
+print(exam(5, 6))
+
+#Output 30
+
+exam = lambda a, b, c: a + b + c
+print(exam(5, 6, 2))
+
+
