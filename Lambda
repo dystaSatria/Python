@@ -1,0 +1,10 @@
+"""
+Main Theory
+
+"""
+
+greeting = lambda name: print(f"Hello, {name}") 
+greeting("Reza")
+
+#Output : Hello,Reza
+
