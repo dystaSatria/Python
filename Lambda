@@ -8,3 +8,12 @@ greeting("Reza")
 
 #Output : Hello,Reza
 
+"""
+Mini Example
+"""
+
+exam = lambda a: a + 20
+print(exam(12))
+
+#Output 32
+
