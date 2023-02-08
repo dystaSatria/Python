@@ -26,7 +26,7 @@ i += 1 # Next execution resumes
 
 
 
-#Example code
+#1
 
 def generator():
 
@@ -47,3 +47,28 @@ for i in gen_object:
 #Output : Welcome
           To
           Simplilearn
+
+
+#2
+
+# Use of yield
+def printresult(String): 
+   for i in String: 
+      if i == "p": 
+         yield i 
+
+# Initializing string 
+String = "Happy Birthday" 
+ans = 0
+print ("The number of 'p' in word is: ", end = "" ) 
+String = String.strip() 
+
+for j in printresult(String): 
+   ans = ans + 1
+
+print (ans)
+
+#Output
+
+
+
