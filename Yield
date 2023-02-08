@@ -69,7 +69,7 @@ for j in printresult(String):
 print (ans)
 
 #Output : The number of 'p' in word is: 2
-#if we change the "yield" section with the "return"
+#if we change the "yield" section with the "return" the Output will be : The number of 'p' in word is: 1
 
 
 
