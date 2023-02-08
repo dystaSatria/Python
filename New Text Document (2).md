@@ -1,7 +1,7 @@
 # Yield
 
 The Yield keyword in Python is similar to a 
-<span style="color:red">
+<span style="color:red" >
 Text_content
 </span>  
 statement used for returning values or objects in Python.  
