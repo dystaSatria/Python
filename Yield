@@ -23,3 +23,27 @@ while True:
 yield i*i
 i += 1 # Next execution resumes
 # from this point
+
+
+
+#Example code
+
+def generator():
+
+   yield "Welcome"
+
+   yield "to"
+
+   yield "Simplilearn"
+
+gen_object = generator()
+
+print(type(gen_object))
+
+for i in gen_object:
+
+   print(i)
+
+#Output : Welcome
+          To
+          Simplilearn
