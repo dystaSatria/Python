@@ -1,11 +1,14 @@
-# Foobar
+# Yield
 
-Foobar is a Python library for dealing with word pluralization.
+The Yield keyword in Python is similar to a 
+<span style="color:red">
+Text_content
+</span>  
+statement used for returning values or objects in Python.  
 
-## Installation
+## Different from 'return'
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to instal
 ```bash
 pip install foobar
 ```
