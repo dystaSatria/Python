@@ -68,7 +68,7 @@ for j in printresult(String):
 
 print (ans)
 
-#Output
+#Output : The number of 'p'
 
 
 
