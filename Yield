@@ -68,7 +68,9 @@ for j in printresult(String):
 
 print (ans)
 
-#Output : The number of 'p'
+#Output : The number of 'p' in word is: 2
+
+
 
 
 
