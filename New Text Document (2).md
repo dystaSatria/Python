@@ -1,15 +1,50 @@
 # Yield
 
-The Yield keyword in Python is similar to a - return statement used for returning values or objects in Python.  
+
+The Yield keyword in Python is similar to a "return" statement used for returning values or objects in Python.  
+
 
 ## Different from 'return'
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to instal
+### yield
+
 ```bash
-pip install foobar
+
+Yield is one of our ways to return a value and pause the execution of the 
+currently running function.
+
+
 ```
 
-## Usage
+```python 
+def simpleGeneratorFun():
+    yield 1
+    yield 2
+    yield 3
+
+for value in simpleGeneratorFun(): 
+    print(value)
+
+```
+```output
+1
+2
+3
+```
+
+
+### return
+```bash
+
+Return is our way to return a value and stop all process functions that are already running.
+
+
+```
+
+
+
+
+## Example Codes
 
 ```python
 import foobar
