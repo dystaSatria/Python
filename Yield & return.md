@@ -8,20 +8,11 @@ The Yield keyword in Python is similar to a "return" statement used for returnin
 
 ### yield
 
-```bash
+
 
 > Yield is one of our ways to return a value and pause the execution of the 
 > currently running function.
 
-
-```
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
 
 ```python 
 def simpleGeneratorFun():
@@ -41,12 +32,12 @@ for value in simpleGeneratorFun():
 
 
 ### return
-```bash
-
-Return is our way to return a value and stop all process functions that are already running.
 
 
-```
+> Return is our way to return a value and stop all process functions that are already running.
+
+
+
 
 ```python 
 def simpleGeneratorFun():
