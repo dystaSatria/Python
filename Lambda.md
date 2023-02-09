@@ -3,15 +3,14 @@
 
 A lambda function can take any number of arguments, but can only have one expression.
 
-## Different from 'return'
+## Syntax
 
-### yield
+```bash
+lambda arguments : expression
 
+```
 
-
-> Yield is one of our ways to return a value and pause the execution of the 
-> currently running function.
-
+## Example
 
 ```python 
 def simpleGeneratorFun():
