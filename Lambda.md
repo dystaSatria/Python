@@ -1,5 +1,5 @@
 # Lambda
-#### _A lambda function is a small anonymous function._
+#### _small anonymous function._
 
 The Yield keyword in Python is similar to a "return" statement used for returning values or objects in Python.  
 
