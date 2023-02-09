@@ -61,24 +61,38 @@ print(mydoubler(11))
 22
 ```
 
-### return
+## Example 5
 
+```python
+def myfunc(n):
+  return lambda a : a * n
 
-> Return is our way to return a value and stop all process functions that are already running.
+mydoubler = myfunc(4)
 
-
-
-
-```python 
-def simpleGeneratorFun():
-    yield 1
-    return 2
-    yield 3
-
-for value in simpleGeneratorFun(): 
-    print(value)
+print(mydoubler(12))
 
 ```
+
 ```output
-1
+48
+```
+
+## Example 6
+
+```python
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
+
+print(mydoubler(11)) 
+print(mytripler(11))
+
+
+```
+
+```output
+22
+33
 ```
