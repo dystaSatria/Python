@@ -34,6 +34,33 @@ print(exam(5, 6))
 30
 ```
 
+## Example 3
+
+```python
+exam = lambda a, b, c: a + b + c
+print(exam(5, 6, 2))
+
+```
+
+```output
+60
+```
+
+## Example 4
+
+```python
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+print(mydoubler(11))
+
+```
+
+```output
+22
+```
+
 ### return
 
 
