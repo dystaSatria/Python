@@ -10,8 +10,8 @@ The Yield keyword in Python is similar to a "return" statement used for returnin
 
 ```bash
 
-Yield is one of our ways to return a value and pause the execution of the 
-currently running function.
+> Yield is one of our ways to return a value and pause the execution of the 
+> currently running function.
 
 
 ```
