@@ -22,6 +22,17 @@ greeting("Reza")
 Hello, Reza
 ```
 
+## Example 2
+
+```python
+exam = lambda a, b : a * b
+print(exam(5, 6))
+
+```
+
+```output
+30
+```
 
 ### return
 
