@@ -1,8 +1,7 @@
 # Lambda
 #### _small anonymous function._
 
-The Yield keyword in Python is similar to a "return" statement used for returning values or objects in Python.  
-
+A lambda function can take any number of arguments, but can only have one expression.
 
 ## Different from 'return'
 
