@@ -10,22 +10,16 @@ lambda arguments : expression
 
 ```
 
-## Example
+## Example 1
 
 ```python
-def simpleGeneratorFun():
-    yield 1
-    yield 2
-    yield 3
-
-for value in simpleGeneratorFun(): 
-    print(value)
+greeting = lambda name: print(f"Hello, {name}") 
+greeting("Reza")
 
 ```
+
 ```output
-1
-2
-3
+Hello, Reza
 ```
 
 
