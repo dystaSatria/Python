@@ -12,7 +12,7 @@ lambda arguments : expression
 
 ## Example
 
-```java
+```python
 def simpleGeneratorFun():
     yield 1
     yield 2
