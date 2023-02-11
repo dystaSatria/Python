@@ -34,5 +34,5 @@ Output: [0,1]
 
 # Solution
 
-we must pay attention to the quote **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**
+We must pay attention to the **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**
 
