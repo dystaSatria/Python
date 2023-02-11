@@ -53,4 +53,3 @@ We must pay attention to the **"You may assume that each input would have exactl
   
   
   
-<center>This text is centered.</center>
