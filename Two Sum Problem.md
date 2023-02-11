@@ -1,5 +1,5 @@
-"""
-Example :
+# Problem
+## 1.
 Input: nums = [1,4,10,-3], target = 14
 Output: [1,2] or [2,1] # 4 + 10 = 14
 Input: nums = [9,5,1,23], target = 10
