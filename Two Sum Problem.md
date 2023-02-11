@@ -39,4 +39,18 @@ We must pay attention to the **"You may assume that each input would have exactl
 
 <center><a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52683214573/in/dateposted-public/" title="Screenshot (509)" style="text-align:center;"><img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)"></a><center>
   
- <center>This text is centered.</center>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<center>This text is centered.</center>
