@@ -37,4 +37,4 @@ Output: [0,1]
 We must pay attention to the **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**.That mean's we will use **Brute Force** to solve this problem. 
 **Brute Force** is just calculate every single combination until you find the right answer. We can see the picture below to increase our understanding.
 
-![An old rock in the desert](https://files.fm/u/5enjk6tw2)
+![An old rock in the desert](https://files.fm/u/5enjk6tw2).
