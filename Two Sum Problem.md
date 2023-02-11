@@ -2,8 +2,12 @@
 ## 1.
 Input: nums = [1,4,10,-3], target = 14
 Output: [1,2] or [2,1] # 4 + 10 = 14
+
+## 2.
 Input: nums = [9,5,1,23], target = 10
 Output: [0,2] or [2,0] # 9 + 1 = 10
+
+## 3.
 Input: nums = [1,-2,5,10], target = -1
 Output: [0,1] or [1,0] # 1 + -2 = -1
 """
