@@ -74,7 +74,17 @@ class Solution(object):
         hashtable= {}
         for in in range(len(nums)):
   ```
-- If it exists ```target - nums[i]``` in ```hashtable```, we have found the two elements that add up to the target, and we return their indices ```return [hashtable[target - nums[i]],i] .
+- If it exists ```target - nums[i]``` in ```hashtable```, we have found the two elements that add up to the target, and we return their indices ``` return [hashtable[target - nums[i]],i]``` .
+ 
+ ```python
+ class Solution(object):
+    def twoSum(self, nums, target):
+        hashtable= {}
+        for i in range(len(nums)):
+            if target - nums[i] in hashtable:
+                return [hashtable[target-nums[i]],i]
+                
+  ```
   
   
   
