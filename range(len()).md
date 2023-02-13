@@ -5,12 +5,15 @@ This code is allows you to iterate across a given iterable/sequence to access ea
 
 ## Example
 <br>
+
 ```python
 li = ['a', 'b', 'c']
 for i in range(len(li)):
     print(li[i])
 ```
+
 <br>
+
 ```
 a
 b
