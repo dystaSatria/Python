@@ -7,7 +7,7 @@ You may assume that each input would have **exactly one solution**, and you may 
 You can return the answer in any order.
 
 ## Example 1
-,
+
 ```
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
