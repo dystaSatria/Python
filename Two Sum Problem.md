@@ -42,8 +42,8 @@ Output: [0,1]
 <br>
 <br>
 
-
 ### The Solved Code
+
 ```python
 class Solution(object):
     def twoSum(self, nums, target): 
