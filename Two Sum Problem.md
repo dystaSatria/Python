@@ -48,7 +48,7 @@ Output: [0,1]
         hashtable= {}
   ```
 
-- We use a loop to iterate over all elements in the array(nums array's elements). So, we will use ```for```
+- We use a loop to iterate over all elements in the array(nums array's elements). So, we will use ```for in in range(len(nums)):```
 
   ```python
   class Solution(object):
