@@ -31,6 +31,7 @@ Output: [0,1]
 <br>
 <br>
 <br>
+
 # Solution 1 (Brute Force)
 
 - We must pay attention to the **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**.That mean's we will use **Brute Force** to solve this problem. 
