@@ -39,7 +39,10 @@ Output: [0,1]
 <p align="center">
  <img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)">
 </p>
-
+<br>
+<br>
+<br>
+<br>
 ### The Solved Code
 ```python
 class Solution(object):
