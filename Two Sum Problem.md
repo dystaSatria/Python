@@ -74,7 +74,7 @@ class Solution(object):
         hashtable= {}
         for in in range(len(nums)):
   ```
-  - If it exists ```target - nums[i]`` in ```hashtable```, we have found the two elements that add up to the target, and we return their indices.
+- If it exists ```target - nums[i]``` in ```hashtable```, we have found the two elements that add up to the target, and we return their indices.
   
   
   
