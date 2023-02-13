@@ -34,7 +34,7 @@ Output: [0,1]
 
 # Solution
 
-We must pay attention to the **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**.That mean's we will use **Brute Force** to solve this problem. 
+- We must pay attention to the **"You may assume that each input would have exactly one solution,and you may not use the same element twice."**.That mean's we will use **Brute Force** to solve this problem. 
 **Brute Force** is just calculate every single combination until you find the right answer. We can see the picture below to increase our understanding.
 <p align="center">
  <img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)">
