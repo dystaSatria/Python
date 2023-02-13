@@ -39,11 +39,9 @@ Output: [0,1]
 <p align="center">
  <img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)">
 </p>
+<br>
+<br>
 
-<br>
-<br>
-<br>
-<br>
 
 ### The Solved Code
 ```python
@@ -54,6 +52,10 @@ class Solution(object):
                 if nums[i] + nums[j] == target:
                     return [i,j]
 ```
+
+<br>
+<br>
+<br>
 
 # Solution 1 (Brute Force)
 - After that we can use **Hash table** (dictionary / ```{}```) to collect and store the elements in the array and their indices, and then checks each element and its index whether the target minus the current element is in the hash table.
