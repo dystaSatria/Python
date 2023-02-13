@@ -40,7 +40,7 @@ Output: [0,1]
  <img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)">
 </p>
 
-After that we will use **Hash table** (dictionary / ```{}```) to collect and store the elements in the array and their indices, and then check
+- After that we will use **Hash table** (dictionary / ```{}```) to collect and store the elements in the array and their indices, and then check
 
 
   
