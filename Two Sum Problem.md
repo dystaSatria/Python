@@ -40,7 +40,7 @@ We must pay attention to the **"You may assume that each input would have exactl
  <img src="https://live.staticflickr.com/65535/52683214573_8e2f41bc1c_w.jpg" width="400" height="363" alt="Screenshot (509)">
 </p>
 
-After that we will use 
+After that we will use **Hash table** to
 
 
   
