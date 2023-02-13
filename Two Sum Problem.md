@@ -87,8 +87,6 @@ class Solution(object):
   ```
   - If it doesn't exist, we add ```nums[i]``` to the hashtable and its index ```hashtable[nums[i]] = i```.
 <br>
-<br>
-
   ### The Solved Code
 
 ```python
