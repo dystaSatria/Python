@@ -48,7 +48,7 @@ Output: [0,1]
         hashtable= {}
   ```
 
-
+- To check each element
   
   
   
