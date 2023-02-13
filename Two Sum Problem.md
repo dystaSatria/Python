@@ -85,6 +85,19 @@ class Solution(object):
                 return [hashtable[target-nums[i]],i]
                 
   ```
+  - If it doesn't exist, we add ```nums[i]``` to the hashtable and its index ```hashtable[nums[i]] = i```.
+  <br>
+  <br>
+  ### The Solved Code
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        hashtable= {}
+        for i in range(len(nums)):
+            if target - nums[i] in hashtable:
+                return [hashtable[target-nums[i]],i]
+            hashtable[nums[i]] = i 
+```
   
   
   
