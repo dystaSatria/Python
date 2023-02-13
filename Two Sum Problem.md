@@ -57,7 +57,7 @@ class Solution(object):
 <br>
 <br>
 
-# Solution 1 (Brute Force)
+# Solution 2 (Hash Table)
 - After that we can use **Hash table** (dictionary / ```{}```) to collect and store the elements in the array and their indices, and then checks each element and its index whether the target minus the current element is in the hash table.
 
   ```python
