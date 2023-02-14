@@ -20,6 +20,7 @@ check(s2)
 
 ```
 
+## Output
 ```shell
 binary string
 non-binary string
