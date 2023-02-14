@@ -20,6 +20,7 @@ check(s2)
 
 ```
 
-```
-
+```shell
+binary string
+non-binary string
 ```
