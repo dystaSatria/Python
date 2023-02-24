@@ -1,10 +1,10 @@
-Num = int(input("input the number"))
-operation = 0
+while True : 
+    Num = int(input("\ninput the number\n"))
+    reverseNum = 0
 
-While Num != 0:
-   reverseNum = Num % 10
-   operation = (operation* Num) + reverseNum
-   Num // 10
+    while Num != 0:
+        operation = Num % 10
+        reverseNum = (reverseNum * 10) + operation
+        Num //= 10
    
-print (str(reverseNum))
-   
+    print (str(reverseNum))
