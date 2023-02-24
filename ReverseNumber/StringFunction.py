@@ -3,7 +3,7 @@
 def reverseNum(num):
   return int(str(num)[::-1])
 
-Sks
+Sk
 
 while True :
     num = input("\ninput your number\n")
