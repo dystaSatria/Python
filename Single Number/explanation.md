@@ -8,6 +8,6 @@ To find the single element :
 (2 * total the removed duplicate element) - total element 
 ```
 So in python we can code it like :
-```
+```python
 
 ```
