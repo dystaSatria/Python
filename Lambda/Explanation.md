@@ -22,7 +22,7 @@ foobar.pluralize('word')
 foobar.pluralize('
 
 # returns 'phenomenon'
-foobar.singularize('phenomena')
+foobar.singularize('phenomen
 ```
 
 ## Contributing
