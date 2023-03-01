@@ -9,5 +9,5 @@ To find the single element :
 ```
 So in python we can code it like :
 ```python
-
+2*sum(list(set(nums))) - sum(nums)
 ```
