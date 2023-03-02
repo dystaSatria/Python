@@ -2,7 +2,14 @@
 
 class Solution(object):
     def isPalindrom(self, x):
-        if x < 0 or (x % 10 and x > 0):
+        if x < 0 or (x % 10 and x != 0):
             return False
         
-        lastNumber = 0 
+        numReversed = 0
+        originalX = x
+        
+        while x > 0 :
+            lastDigit = x % 10
+            numReversed = numReversed * 10 + lastDigit
+            
+        
