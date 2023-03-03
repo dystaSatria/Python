@@ -12,5 +12,5 @@ Roman numerals are represented by seven different symbols: ```I```, ```V```, ```
 |  L |  50   |
 |  C  |    100   |
 |  D   |   500    |
-
+|  M   |   1000    |
 
