@@ -4,10 +4,10 @@ Roman numerals are represented by seven different symbols: ```I```, ```V```, ```
 
 
 
-| Symbol |      Are      |
+| Symbol |      Value     |
 |----------|:-------------:|
-| col 1 is |  left-aligned |
-| col 2 is |    centered   | 
-| col 3 is | right-aligned |
+| I |  1 |
+|  |     | 
+|  |  |
 
 
