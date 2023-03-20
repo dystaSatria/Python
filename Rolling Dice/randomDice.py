@@ -3,42 +3,42 @@ import random
 x = "yes"
 while x =="yes":
    no = random.randint(1,6)
-    if no == 1:
+   if no == 1:
         print("[-----]")
         print("[     ]")
         print("[  0  ]")
         print("[     ]")
         print("[-----]")
-    if no == 2:
+   if no == 2:
         print("[-----]")
         print("[ 0   ]")
         print("[     ]")
         print("[   0 ]")
         print("[-----]")
-    if no == 3:
+   if no == 3:
         print("[-----]")
         print("[     ]")
         print("[0 0 0]")
         print("[     ]")
         print("[-----]")
-    if no == 4:
+   if no == 4:
         print("[-----]")
         print("[0   0]")
         print("[     ]")
         print("[0   0]")
         print("[-----]")
-    if no == 5:
+   if no == 5:
         print("[-----]")
         print("[0   0]")
         print("[  0  ]")
         print("[0   0]")
         print("[-----]")
-    if no == 6:
+   if no == 6:
         print("[-----]")
         print("[0 0 0]")
         print("[     ]")
         print("[0 0 0]")
         print("[-----]")
-    print("It's your dice")     
-    x=input("Input "Yes", if you want roll your dice : \n\n").lower()
-    
+   print("It's your dice")
+   print("\n")     
+   x=input("Input 'yes', if you want roll your dice : ").lower()
