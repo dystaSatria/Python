@@ -1,5 +1,8 @@
 import random
 
+
+//rool dice as dice pattern
+
 x = "yes"
 while x =="yes":
    no = random.randint(1,6)
