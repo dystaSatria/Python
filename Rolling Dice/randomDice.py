@@ -40,5 +40,5 @@ while x =="yes":
         print("[0 0 0]")
         print("[-----]")
     print("It's your dice")     
-    x=input(" press y to roll again and n to exit:")
+    x=input("Input "Yes", if you want roll  ")
     print("\n")
