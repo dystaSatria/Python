@@ -25,3 +25,7 @@ def findMedianSortedArrays(nums1, nums2):
             high = partition1 - 1
         else:
             low = partition1 + 1
+
+ 
+#Tester code
+ print(findMedianSortedArrays([1,2,7], [6,7,10]))
