@@ -1,7 +1,7 @@
 import random
 
 
-//rool dice as dice pattern
+//rool dice as dice patter
 
 x = "yes"
 while x =="yes":
