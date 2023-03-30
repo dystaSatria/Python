@@ -1,3 +1,5 @@
+# in vscode running well but till error
+
 class Solution:
     def findMedianSortedArrays(nums1, nums2) :
         def findMedian(nums1, nums2):
