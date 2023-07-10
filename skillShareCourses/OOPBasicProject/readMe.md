@@ -1,4 +1,4 @@
-<pre>
+
 ```console
   
 --------------Base Mode--------------
@@ -23,4 +23,4 @@ Color: White
 Speed: 0 km/h
 
 ```
-</pre>
+
