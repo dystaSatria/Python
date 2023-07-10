@@ -5,7 +5,7 @@ body {
 }
 </style>
 
-
+<body>
 --------------Base Mode--------------
 Brand: Toyota
 Model: Corolla
@@ -26,7 +26,10 @@ Brand: Toyota
 Model: Corolla
 Color: White
 Speed: 0 km/h
+    
+</body>
 
 
 
-```
+
+
