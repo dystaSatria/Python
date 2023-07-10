@@ -1,1 +1,1 @@
-1[](https://github.com/dystaSatria/Python/blob/main/skillShareCourses/OOPBasicProject/index.html)
+![](https://github.com/dystaSatria/Python/blob/main/skillShareCourses/OOPBasicProject/index.html)
