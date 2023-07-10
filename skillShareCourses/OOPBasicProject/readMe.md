@@ -1,6 +1,5 @@
-```output
+```console
 
-[?2004l
 --------------Base Mode--------------
 Brand: Toyota
 Model: Corolla
@@ -22,7 +21,6 @@ Model: Corolla
 Color: White
 Speed: 0 km/h
 
-[?2004h
 
 
 ```
