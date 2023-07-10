@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>HTML Default</title>
+   
 </head>
 <body>
     <h1>Merhaba, Dünya!</h1>
