@@ -1,4 +1,10 @@
-```console
+<style>
+body {
+    background-color: black;
+    color: white;
+}
+</style>
+
 
 --------------Base Mode--------------
 Brand: Toyota
