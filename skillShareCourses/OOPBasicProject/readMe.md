@@ -1,6 +1,4 @@
 ::: danger
-Tulisan ini akan ditampilkan pada latar belakang berwarna hitam.
-:::
 
 --------------Base Mode--------------
 Brand: Toyota
@@ -22,8 +20,11 @@ Brand: Toyota
 Model: Corolla
 Color: White
 Speed: 0 km/h
+
+:::
+
+
     
-</body>
 
 
 
