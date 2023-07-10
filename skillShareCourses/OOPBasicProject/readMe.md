@@ -1,11 +1,7 @@
-<style>
-body {
-    background-color: black;
-    color: white;
-}
-</style>
+::: danger
+Tulisan ini akan ditampilkan pada latar belakang berwarna hitam.
+:::
 
-<body>
 --------------Base Mode--------------
 Brand: Toyota
 Model: Corolla
