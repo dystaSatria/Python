@@ -1,3 +1,2 @@
 # Simple Alarm Project
 
-* Building
