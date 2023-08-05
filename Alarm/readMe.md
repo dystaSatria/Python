@@ -1,2 +1,1 @@
-
-Simple Alarm Project
+# Simple Alarm Project
