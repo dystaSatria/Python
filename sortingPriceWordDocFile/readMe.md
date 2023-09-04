@@ -11,3 +11,12 @@ py -m venv venv
 .\venv\Scripts\activate
 
 ```
+
+* Install python-docx Package
+
+```
+pip install python-docx
+
+```
+
+* Run and Hatur Lumajeng :) Enjoy it
