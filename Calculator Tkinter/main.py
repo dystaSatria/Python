@@ -1,4 +1,4 @@
-from tkinter import Tk,Entry, Button , StringVar
+import tkinter as tk
 
 
 room =Tk()
