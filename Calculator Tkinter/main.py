@@ -8,3 +8,9 @@ def addCalculation(symbol):
 
 def eventCalculation(symbol):
   pass
+
+def clearField():
+  pass
+
+
+root = tk.TK()
