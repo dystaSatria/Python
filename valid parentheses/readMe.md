@@ -13,11 +13,11 @@ Example 1:
 
 Input: s = "()"
 
-'''
+```
 Output: true
 Example 2:
 
-'''
+```
 
 Input: s = "()[]{}"
 Output: true
