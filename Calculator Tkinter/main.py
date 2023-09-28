@@ -17,5 +17,6 @@ root = tk.TK()
 root.geometry("300x275")
 
 
-textResult = tk.Text(root, height=2, width=16)
+textResult = tk.Text(root, height=2, width=16, font=("Arial",24))  
+
 root.mainLoop()
