@@ -15,4 +15,7 @@ def clearField():
 
 root = tk.TK()
 root.geometry("300x275")
+
+
+textResult = tk.Text
 root.mainLoop()
