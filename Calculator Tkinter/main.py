@@ -4,7 +4,11 @@ import tkinter as tk
 calculation = ""
 
 def addCalculation(symbol):
-  pass
+  global calculation
+  calculation += str(symbol)
+  textResult.delete(1.0, "end")
+  textResult
+  
 
 def eventCalculation(symbol):
   pass
