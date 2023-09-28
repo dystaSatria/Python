@@ -18,5 +18,5 @@ root.geometry("300x275")
 
 
 textResult = tk.Text(root, height=2, width=16, font=("Arial",24))  
-
+textResult.grid(columnspan=5)
 root.mainLoop()
