@@ -12,8 +12,9 @@ def addCalculation(symbol):
 
 def eventCalculation(symbol):
   global calculation
-  
-  pass
+  try:
+  except:   
+    pass
 
 def clearField():
   pass
