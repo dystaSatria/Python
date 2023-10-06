@@ -22,6 +22,9 @@ def eventCalculation(symbol):
     pass
 
 def clearField():
+  global calculation
+  calculation = ""
+  text_result.delete(1.0,"end")
   pass
 
 
@@ -31,4 +34,7 @@ root.geometry("300x275")
 
 textResult = tk.Text(root, height=2, width=16, font=("Arial",24))  
 textResult.grid(columnspan=5)
+
+
+btn
 root.mainLoop()
