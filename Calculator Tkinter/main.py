@@ -17,7 +17,7 @@ def eventCalculation(symbol):
     text_result.delete(1.0,"end")
     text_result.insert(1.0,calculation)
   except: 
-    clear.field()
+    clear_field()
     pass
 
 def clearField():
