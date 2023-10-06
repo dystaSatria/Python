@@ -12,7 +12,8 @@ def addCalculation(symbol):
 
 def eventCalculation(symbol):
   global calculation
-  try:
+  try: 
+    result = str()
   except:   
     pass
 
