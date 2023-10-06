@@ -13,7 +13,7 @@ def addCalculation(symbol):
 def eventCalculation(symbol):
   global calculation
   try: 
-    result = str()
+    result = str(eval(calculation))
   except:   
     pass
 
