@@ -13,9 +13,11 @@ def addCalculation(symbol):
 def eventCalculation(symbol):
   global calculation
   try: 
-    result = str(eval(calculation))
-    calculation = ""
-  except:   
+    calculation = str(eval(calculation))
+    text_result.delete(1.0,"end")
+    text_result.insert(1.0,calculation)
+  except: 
+    clear.field()
     pass
 
 def clearField():
