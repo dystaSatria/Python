@@ -14,6 +14,7 @@ def eventCalculation(symbol):
   global calculation
   try: 
     result = str(eval(calculation))
+    calculation = ""
   except:   
     pass
 
