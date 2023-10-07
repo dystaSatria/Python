@@ -40,4 +40,6 @@ btn_1 = tk.Button(root, text="1", command=lambda: add_to_calculation(1), width=5
 btn_1.grid(row=2, column=1)
 btn_2 = tk.Button(root, text="2", command=lambda: add_to_calculation(2), width=5, font=("Arial",14))
 btn_2.grid(row=2, column=2)
+btn_3 = tk.Button(root, text="3", command=lambda: add_to_calculation(3), width=5, font=("Arial",14))
+btn_3.grid(row=2, column=3)
 root.mainLoop()
