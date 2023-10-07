@@ -48,6 +48,6 @@ btn_5 = tk.Button(root, text="5", command=lambda: add_to_calculation(5), width=5
 btn_5.grid(row=3, column=2)
 btn_6 = tk.Button(root, text="6", command=lambda: add_to_calculation(6), width=5, font=("Arial",14))
 btn_6.grid(row=3, column=3)
-btn_6 = tk.Button(root, text="3", command=lambda: add_to_calculation(3), width=5, font=("Arial",14))
-btn_6.grid(row=3, column=3)
+btn_7 = tk.Button(root, text="7", command=lambda: add_to_calculation(7), width=5, font=("Arial",14))
+btn_7.grid(row=4, column=1)
 root.mainLoop()
