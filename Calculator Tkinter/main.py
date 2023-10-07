@@ -36,5 +36,5 @@ textResult = tk.Text(root, height=2, width=16, font=("Arial",24))
 textResult.grid(columnspan=5)
 
 
-btn_1 = tk.Button
+btn_1 = tk.Button(root, text="1", command=lambda:)
 root.mainLoop()
