@@ -1,6 +1,6 @@
 import tkinter as tk
 
-sadada
+sada
 calculation = ""
 
 def addCalculation(symbol):
