@@ -1,6 +1,6 @@
 import tkinter as tk
 
-sa
+
 calculation = ""
 
 def addCalculation(symbol):
