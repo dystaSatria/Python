@@ -1,6 +1,6 @@
 import pygame
 import time
-kmkkkkkkkkkkkkk
+kmkkkkkkkkkkk
 def play_alarm_sound():
     pygame.mixer.init()
     pygame.mixer.music.load("sound.mp3")  
