@@ -1,5 +1,5 @@
 import tkinter as tk
-bjj
+bj
 
 calculation = ""
 
