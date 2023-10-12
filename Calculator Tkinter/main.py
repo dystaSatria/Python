@@ -65,7 +65,7 @@ btn_div = tk.Button(root, text=":", command=lambda: add_to_calculation("/"), wid
 btn_div.grid(row=5, column=4)
 btn_open = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Arial",14))
 btn_open.grid(row=5, column=1)
-btn_close = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Arial",14))
-btn_open.grid(row=5, column=1)
+btn_close = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Arial",14))
+btn_close.grid(row=5, column=2)
 
 root.mainLoop()
