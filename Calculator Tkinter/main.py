@@ -9,7 +9,7 @@ def addCalculation(symbol):
   textResult
   
 
-def eventCalculation(symbol):
+def evaluateCalculation(symbol):
   global calculation
   try: 
     calculation = str(eval(calculation))
