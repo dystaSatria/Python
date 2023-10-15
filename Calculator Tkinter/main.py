@@ -23,7 +23,7 @@ def evaluateCalculation(symbol):
 def clearField():
   global calculation
   calculation = ""
-  text_result.delete(1.0,"end")
+  textResult.delete(1.0,"end")
   pass
 
 
