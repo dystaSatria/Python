@@ -13,11 +13,11 @@ def evaluateCalculation(symbol):
   global calculation
   try: 
     calculation = str(eval(calculation))
-    text_result.delete(1.0,"end")
-    text_result.insert(1.0,calculation)
+    textResult.delete(1.0,"end")
+    textResult.insert(1.0,calculation)
   except: 
     clearField()
-    text_result.insert(1.0,"Error")
+    textResult.insert(1.0,"Error")
     pass
 
 def clearField():
