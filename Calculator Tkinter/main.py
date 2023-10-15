@@ -6,7 +6,7 @@ def addCalculation(symbol):
   global calculation
   calculation += str(symbol)
   textResult.delete(1.0, "end")
-  textResult
+  textResult.insert(1.0,calculation)
   
 
 def evaluateCalculation(symbol):
