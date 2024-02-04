@@ -2,23 +2,22 @@ import tkinter as tk
 
 calculation = ""
 
-def addCalculation(symbol):
+def add_to_calculation(symbol):
   global calculation
   calculation += str(symbol)
   textResult.delete(1.0, "end")
   textResult.insert(1.0,calculation)
   
 
-def evaluateCalculation(symbol):
+def evaluateCalculation():
   global calculation
-  try: 
+  try:
     calculation = str(eval(calculation))
     textResult.delete(1.0,"end")
     textResult.insert(1.0,calculation)
-  except: 
+  except:
     clearField()
     textResult.insert(1.0,"Error")
-    pass
 
 def clearField():
   global calculation
@@ -27,9 +26,10 @@ def clearField():
   pass
 
 
-root = tk.TK()
+root = tk.Tk()
+root.title("Simple Calculator")
 root.geometry("300x275")
-
+root.resizable(False, False)
 
 textResult = tk.Text(root, height=2, width=16, font=("Arial",24))  
 textResult.grid(columnspan=5)
@@ -55,12 +55,12 @@ btn_9 = tk.Button(root, text="9", command=lambda: add_to_calculation(9), width=5
 btn_9.grid(row=4, column=3)
 btn_0 = tk.Button(root, text="0", command=lambda: add_to_calculation(0), width=5, font=("Arial",14))
 btn_0.grid(row=5, column=2)
-btn_plus = tk.Button(root, text="+", command=lambda: add_to_calculation(+), width=5, font=("Arial",14))
+btn_plus = tk.Button(root, text="+", command=lambda: add_to_calculation("+"), width=5, font=("Arial",14))
 btn_plus.grid(row=2, column=4)
-btn_minus = tk.Button(root, text="-", command=lambda: add_to_calculation(-), width=5, font=("Arial",14))
+btn_minus = tk.Button(root, text="-", command=lambda: add_to_calculation("-"), width=5, font=("Arial",14))
 btn_minus.grid(row=3, column=4)
 btn_multiple = tk.Button(root, text="x", command=lambda: add_to_calculation("*"), width=5, font=("Arial",14))
-btn_muitiple.grid(row=4, column=4)
+btn_multiple.grid(row=4, column=4)
 btn_div = tk.Button(root, text=":", command=lambda: add_to_calculation("/"), width=5, font=("Arial",14))
 btn_div.grid(row=5, column=4)
 btn_open = tk.Button(root, text="(", command=lambda: add_to_calculation("("), width=5, font=("Arial",14))
@@ -68,8 +68,8 @@ btn_open.grid(row=5, column=1)
 btn_close = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Arial",14))
 btn_close.grid(row=5, column=3)
 btn_clear = tk.Button(root, text="Clear", command=clearField , width=5, font=("Arial",14))
-btn_clear.grid(row=5, column=3)
-btn_equal = tk.Button(root, text="=", command=lambda: add_to_calculation("="), width=11, font=("Arial",14))
+btn_clear.grid(row=6, column=3)  
+btn_equal = tk.Button(root, text="=", command=evaluateCalculation, width=11, font=("Arial",14))
 btn_equal.grid(row=6, column=1, columnspan=2)
 
-root.mainLoop()
+root.mainloop()
