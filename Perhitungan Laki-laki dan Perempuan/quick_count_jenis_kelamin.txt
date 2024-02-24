@@ -1,0 +1,3 @@
+Quick Count Jenis Kelamin
+Jumlah Laki-laki: 8
+Jumlah Perempuan: 2
