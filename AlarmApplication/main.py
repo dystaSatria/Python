@@ -1,6 +1,6 @@
 import pygame
 import time
-jjjsjsjsj
+jjjsjsj
 def play_arm_sound():
     pygame.mixer.init()
     pygame.mixer.music.load("sound.mp3")  
