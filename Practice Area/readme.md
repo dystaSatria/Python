@@ -1,4 +1,4 @@
-# String Operations in Pytho
+# String Operations in Python
 
 ### 1. Creating Strings
 In Python, strings can be created using single quotes (`'`), double quotes (`"`), or triple quotes (`'''` or `"""`).
