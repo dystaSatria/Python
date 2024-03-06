@@ -69,4 +69,96 @@ print(s.title())  # Output: Hello World
 print(s.replace("world", "Python"))  # Output: Hello Python
 ```
 
-These basic examples and methods provided for string operations in Python illustrate how flexible and powerful the language is for string manipulation. Python offers a vast array of methods and techniques for working with strings.
+# Metode #1 
+
+Metode dalam Python adalah fungsi yang terkait dengan objek, yang memungkinkan Anda untuk melakukan operasi dengan objek tersebut atau mengubah objek itu sendiri. Berikut adalah 10 contoh metode pada objek yang berbeda dalam Python, termasuk string, list, dictionary, dan lebih lanjut, lengkap dengan penjelasan singkat dan contoh penggunaan:
+
+### 1. `append()` untuk List
+Menambahkan sebuah item ke akhir list.
+
+```python
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list)  # Output: [1, 2, 3, 4]
+```
+
+### 2. `pop()` untuk List
+Menghapus item pada posisi tertentu dalam list dan mengembalikannya. Jika indeks tidak ditentukan, `pop()` menghapus dan mengembalikan item terakhir dalam list.
+
+```python
+my_list = ['a', 'b', 'c', 'd']
+item = my_list.pop(2)
+print(item)  # Output: 'c'
+print(my_list)  # Output: ['a', 'b', 'd']
+```
+
+### 3. `find()` untuk String
+Mencari substring dalam string dan mengembalikan indeks awal substring tersebut. Jika tidak ditemukan, mengembalikan -1.
+
+```python
+my_string = "hello world"
+index = my_string.find("world")
+print(index)  # Output: 6
+```
+
+### 4. `upper()` untuk String
+Mengubah semua huruf dalam string menjadi huruf besar.
+
+```python
+my_string = "hello world"
+print(my_string.upper())  # Output: "HELLO WORLD"
+```
+
+### 5. `lower()` untuk String
+Mengubah semua huruf dalam string menjadi huruf kecil.
+
+```python
+my_string = "HELLO WORLD"
+print(my_string.lower())  # Output: "hello world"
+```
+
+### 6. `sort()` untuk List
+Mengurutkan item dalam list di tempat.
+
+```python
+my_list = [3, 1, 4, 1, 5, 9, 2]
+my_list.sort()
+print(my_list)  # Output: [1, 1, 2, 3, 4, 5, 9]
+```
+
+### 7. `update()` untuk Dictionary
+Menambahkan pasangan kunci-nilai ke dalam dictionary. Jika kunci sudah ada, nilai akan diperbarui.
+
+```python
+my_dict = {'name': 'John', 'age': 25}
+my_dict.update({'age': 26, 'city': 'New York'})
+print(my_dict)  # Output: {'name': 'John', 'age': 26, 'city': 'New York'}
+```
+
+### 8. `remove()` untuk List
+Menghapus item pertama dari list yang nilainya sama dengan parameter yang diberikan.
+
+```python
+my_list = ['a', 'b', 'c', 'd', 'b']
+my_list.remove('b')
+print(my_list)  # Output: ['a', 'c', 'd', 'b']
+```
+
+### 9. `strip()` untuk String
+Menghapus whitespace di awal dan akhir string.
+
+```python
+my_string = "   hello world   "
+print(my_string.strip())  # Output: "hello world"
+```
+
+### 10. `get()` untuk Dictionary
+Mengembalikan nilai dari kunci yang ditentukan. Jika kunci tidak ditemukan, mengembalikan nilai default jika ditentukan, atau `None` jika tidak.
+
+```python
+my_dict = {'name': 'John', 'age': 25}
+print(my_dict.get('age'))  # Output: 25
+print(my_dict.get('city', 'Not Found'))  # Output: "Not Found"
+```
+
+Metode-metode ini memberikan fungsi dasar untuk manipulasi dan pengelolaan data dalam koleksi seperti list dan dictionary, serta operasi string yang umum dalam Python.
