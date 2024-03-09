@@ -26,7 +26,7 @@ To run this script, you need:
 1. Ensure you have Python installed on your machine.
 2. Open your terminal or command prompt.
 3. Navigate to the directory containing the script.
-4. Run the script ```
+4. Run the script ```randomDice.py```
 5. The script will prompt you with `"Input 'yes', if you want roll your dice : "`. Type `yes` and press Enter to roll the dice.
 6. To exit the program, type anything other than `yes` when prompted.
 
