@@ -1,6 +1,4 @@
-# Rolling Dice Python Documentation
-
-# Dice Roll Simulation
+# Dice Roll Simulation Documentation
 
 This project simulates the rolling of a six-sided dice using Python. When executed, it randomly selects a number between 1 and 6, inclusive, and prints a visual representation of the dice face corresponding to the number.
 
