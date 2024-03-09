@@ -28,4 +28,15 @@ To run this script, you need:
 1. Ensure you have Python installed on your machine.
 2. Open your terminal or command prompt.
 3. Navigate to the directory containing the script.
-4. Run the script using the following command:
+4. Run the script ```
+5. The script will prompt you with `"Input 'yes', if you want roll your dice : "`. Type `yes` and press Enter to roll the dice.
+6. To exit the program, type anything other than `yes` when prompted.
+
+## Modifications and Customization
+
+Feel free to modify the script to include more sides, change the patterns, or enhance the user interface. This script serves as a basic demonstration of using conditional statements and loops in Python.
+
+## License
+
+This project is open-sourced and free to use. If you improve upon it or have suggestions, please share them back with the community.
+
