@@ -161,4 +161,133 @@ print(my_dict.get('age'))  # Output: 25
 print(my_dict.get('city', 'Not Found'))  # Output: "Not Found"
 ```
 
-Metode-metode ini memberikan fungsi dasar untuk manipulasi dan pengelolaan data dalam koleksi seperti list dan dictionary, serta operasi string yang umum dalam Python.
+# Python Lists Overview
+
+Python lists are versatile, ordered collections of items that can be modified. They can contain elements of different types, including other lists, allowing for the construction of complex data structures. Below is a concise guide on using Python lists effectively.
+
+## Creating Lists
+
+To create a list, place its elements within square brackets `[]`, separated by commas.
+
+```python
+primes = [2, 3, 5, 7, 11]
+empty_list = []
+```
+
+## Adding Lists Together
+
+Use the `+` operator to concatenate lists.
+
+```python
+items = ['cake', 'cookie', 'bread']
+total_items = items + ['biscuit', 'tart']
+print(total_items)  # ['cake', 'cookie', 'bread', 'biscuit', 'tart']
+```
+
+## List Methods
+
+### .append()
+
+Add an item to the end of a list.
+
+```python
+orders = ['daisies', 'periwinkle']
+orders.append('tulips')
+print(orders)  # ['daisies', 'periwinkle', 'tulips']
+```
+
+### .remove()
+
+Remove the first occurrence of an item.
+
+```python
+shopping_line = ["Cole", "Kip", "Chris", "Sylvana", "Chris"]
+shopping_line.remove("Chris")
+print(shopping_line)  # ["Cole", "Kip", "Sylvana", "Chris"]
+```
+
+### .count()
+
+Count the occurrences of an item.
+
+```python
+backpack = ['pencil', 'pen', 'notebook', 'textbook', 'pen', 'highlighter', 'pen']
+print(backpack.count('pen'))  # 3
+```
+
+### .sort()
+
+Sort the list in ascending order.
+
+```python
+exampleList = [4, 2, 1, 3]
+exampleList.sort()
+print(exampleList)  # [1, 2, 3, 4]
+```
+
+### .insert()
+
+Insert an item at a specific index.
+
+```python
+store_line = ["Karla", "Maxium", "Martim", "Isabella"]
+store_line.insert(2, "Vikor")
+print(store_line)  # ['Karla', 'Maxium', 'Vikor', 'Martim', 'Isabella']
+```
+
+### .pop()
+
+Remove and return an item at a given index.
+
+```python
+cs_topics = ["Python", "Data Structures", "Balloon Making", "Algorithms", "Clowns 101"]
+removed_element = cs_topics.pop()
+print(removed_element)  # 'Clowns 101'
+```
+
+## Accessing Elements
+
+Access list elements by their index. Python uses zero-indexing.
+
+```python
+names = ['Roger', 'Rafael', 'Andy', 'Novak']
+print(names[2])  # 'Andy'
+```
+
+### Negative Indices
+
+Negative indices can be used to access elements from the end of the list.
+
+```python
+soups = ['minestrone', 'lentil', 'pho', 'laksa']
+print(soups[-1])  # 'laksa'
+```
+
+## Slicing Lists
+
+Extract sub-lists using slice notation.
+
+```python
+tools = ['pen', 'hammer', 'lever']
+tools_slice = tools[1:3]
+print(tools_slice)  # ['hammer', 'lever']
+```
+
+## Length of a List
+
+Use `len()` to find how many items a list has.
+
+```python
+knapsack = [2, 4, 3, 7, 10]
+print(len(knapsack))  # 5
+```
+
+## Sorting Lists
+
+Use `sorted()` to return a new list that is sorted.
+
+```python
+unsortedList = [4, 2, 1, 3]
+sortedList = sorted(unsortedList)
+print(sortedList)  # [1, 2, 3, 4]
+```
