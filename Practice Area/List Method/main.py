@@ -11,8 +11,7 @@ names.insert(0, "Sena")
 # 3- "Deniz" ismini listeden siliniz.
 names.remove("Deniz")
 
-# 4- "Deniz" isminin indeksi nedir ? (Deniz'i sildikten sonra bu işlem hatalı olacaktır, öncesinde yapılmalıydı.)
-# Deniz'in indeksini bulmak için silinmeden önce bu işlem yapılmalıydı. Ancak, yine de örneğin nasıl yapılacağını gösteriyorum:
+# 4- "Deniz" isminin indeksi nedir
 # deniz_index = names.index("Deniz")
 
 # 5- "Ali" listenin bir elemanı mıdır ?
