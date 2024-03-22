@@ -20,6 +20,12 @@ Input: a = "1010", b = "1011"
 Output: "10101"
 ```
 
+## Solve
+
+```python
+main.py
+```
+
 Constraints:
 
 - 1 <= a.length, b.length <= 104
